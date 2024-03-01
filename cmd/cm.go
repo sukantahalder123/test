@@ -24,5 +24,6 @@ func hello(key string, value string) {
 }
 
 func init() {
+func init() {
 
-}
+}}
