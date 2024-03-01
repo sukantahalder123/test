@@ -14,7 +14,7 @@ var addCmd = &cobra.Command{
 '<cmd> config add --key theKey --value "the value can be a bunch of things."'.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		key, _ := cmd.Flags().GetString("key")
-		value, _ := cmd.Flags().GetString("value")
+		value, _ := cmd.Flags().GetString("value");
 		hello(key, value)
 	},
 }
