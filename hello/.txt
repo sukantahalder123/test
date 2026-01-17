@@ -1,1 +1,2 @@
 hello this is testing for rebase commit message 
+check configure
